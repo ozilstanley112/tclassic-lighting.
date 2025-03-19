@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.Classic Lighting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function showMessage() {
+            alert("Thank you for your interest in T.Classic Lighting!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>T.Classic Lighting</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#shop">Shop</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <main>
+            <h2>Welcome to T.Classic Lighting</h2>
+            <p>Innovative Lighting & Smart Electronics Solutions.</p>
+            <button onclick="showMessage()">Learn More</button>
+        </main>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <main>
+            <h2>About Us</h2>
+            <p>We provide high-quality lighting and electronics tailored to your needs. Reliability and excellence in every connection.</p>
+        </main>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <main>
+            <h2>Our Services</h2>
+            <p>We specialize in custom lighting solutions, installations, and smart electronics for homes and businesses.</p>
+        </main>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <main>
+            <h2>Our Shop</h2>
+            <p>Explore our range of innovative lighting and electronic products. Contact us for purchases.</p>
+        </main>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <main>
+            <h2>Contact Us</h2>
+            <p>Reach us via email at info@tclassiclighting.com or call us at +1234567890.</p>
+        </main>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 T.Classic Lighting. All rights reserved.</p>
+    </footer>
+</body>
+</html>
